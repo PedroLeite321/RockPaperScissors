@@ -19,19 +19,19 @@ function playerChoice(playerChoosed){
         computerChoice = Math.floor(Math.random() * (3)+1);
 
         if(playerChoosed == "rock"){
-            document.querySelector("#secondImage").src="/images/rock2.png";
+            document.querySelector("#secondImage").src="/RPS/images/rock2.png";
         }else if(playerChoosed == "paper"){
-            document.querySelector("#secondImage").src="/images/Paper.png";
+            document.querySelector("#secondImage").src="/RPS/images/Paper.png";
         }else{
-            document.querySelector("#secondImage").src="/images/Scissors.png";
+            document.querySelector("#secondImage").src="/RPS/images/Scissors.png";
         }
         
         if(computerChoice == 1){
-            document.querySelector("#firstImage").src="/images/rock2.png";
+            document.querySelector("#firstImage").src="/RPS/images/rock2.png";
         }else if(computerChoice == 2){
-            document.querySelector("#firstImage").src="/images/Paper.png";
+            document.querySelector("#firstImage").src="/RPS/images/Paper.png";
         }else{
-            document.querySelector("#firstImage").src="/images/Scissors.png";
+            document.querySelector("#firstImage").src="/RPS/images/Scissors.png";
         }
         if(winningC == roundsGame || winningP == roundsGame){
             if(winningC > winningP){
