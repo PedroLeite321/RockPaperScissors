@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    overflow-x:hidden;
+    padding:0;
+}
+body{
+    background: rgb(61,138,142);
+    background-image: url(/images/blackBackground.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100vh;
+    width:100%;
+    margin:0;
+
+}
+.header1{
+    display:flex;
+    margin:0;
+    padding:7px;
+    font-size: 23px;
+    font-weight: 400;
+    font-family:fantasy;
+    justify-content: center;
+    align-items:center;
+    color:#fff;
+    height:100px;
+    background-color: #000;
+    
+   
+}
+.choiceArea{
+    display:flex;
+    justify-content:space-around;
+    height:390px;
+    width:100%;
+    margin-right: 10px;
+    align-items: center;
+
+    
+}
+.choiceTextArea{
+    display: flex;
+    justify-content:space-around;
+    position:relative;
+    bottom:35px;
+    font-size: 15px;
+    
+}
+.paper {
+    margin-left:18px;
+}
+.choice{
+    border: 10px solid black;
+    background-color: #fff;
+    border-radius:20px;
+    
+    
+    
+
+}
+.choiceArea :hover{
+    overflow: hidden;
+    box-shadow: 0px 0px 50px 24px rgba(173,255,248,0.96);
+    height:213px;
+    cursor:pointer;
+}
+.choiceText{
+    color:#fff;
+}
+
+.scorePoints{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-image:url(/images/blackBackground2.webp);
+    width: 100%;
+    height: 300px;
+    flex:1;
+    
+    
+}
+.scorePoints2{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    height: 250px;
+}
+.scorePoints2 .Score{
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin:10px;
+    padding:5px;
+    border: 3px solid black;
+    
+}
+.scorePoints2 .Score2{
+    align-items:center;
+    justify-content: center;
+    flex:1;
+    text-align: center;
+    margin:10px;
+    padding:5px;
+    color:#fff
+}
+.scorePoints2 .Score3{
+    align-items:flex-start;
+    justify-content:flex-start;
+    margin:10px;
+    padding:5px;
+    border:3px solid black
+}
+.Score{
+    padding:0;
+    background-color: #fff;
+}
+.Score3{
+    padding:0;
+    background-color:#fff;
+}
+
+
+
+
+
+.choiceArea button{
+    height:210px;
+    width:fit-content;
+}
+.foot{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100px;
+    background-image:url(/images/stars.jpg);
+    color:#fff;
+    text-align: center;
+    
+}
+.whoDidWhat{
+    display:block;
+    text-align:center;
+    font-size:35px;
+}
+.gameScore{
+    justify-content: center;
+    align-items: center;
+}
+.githubImage{
+    display:inline;
+    margin-left:auto;
+    width: 50px;
+    height: 50px;
+    background-color:silver;
+}
+
+
+
