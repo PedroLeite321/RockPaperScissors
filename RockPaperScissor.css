@@ -5,7 +5,7 @@
 }
 body{
     background: rgb(61,138,142);
-    background-image: url(/RPS/images/blackBackground.webp);
+    background-image: url(./images/blackBackground.webp);
     background-repeat: no-repeat;
     background-size:cover;
     height:100vh;
@@ -19,7 +19,7 @@ body{
     padding:7px;
     font-size: 23px;
     font-weight: 400;
-    font-family:fantasy;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     justify-content: center;
     align-items:center;
     color:#fff;
@@ -72,7 +72,7 @@ body{
     display:flex;
     justify-content:center;
     align-items: center;
-    background-image:url(/RPS/images/blackBackground2.webp);
+    background-image:url(./images/blackBackground2.webp);
     width: 100%;
     height: 300px;
     flex:1;
@@ -101,7 +101,7 @@ body{
     text-align: center;
     margin:10px;
     padding:5px;
-    color:#fff
+    color:#fff;
 }
 .scorePoints2 .Score3{
     align-items:flex-start;
@@ -123,6 +123,7 @@ body{
 
 
 
+
 .choiceArea button{
     height:210px;
     width:fit-content;
@@ -133,7 +134,7 @@ body{
     align-items: center;
     width:100%;
     height:100px;
-    background-image:url(/RPS/images/stars.jpg);
+    background-image:url(./images/stars.jpg);
     color:#fff;
     text-align: center;
     
@@ -146,6 +147,7 @@ body{
 .gameScore{
     justify-content: center;
     align-items: center;
+    color:white;
 }
 .githubImage{
     display:inline;
